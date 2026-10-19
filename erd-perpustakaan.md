@@ -7,6 +7,7 @@ erDiagram
     PETUGAS ||--|{ PEMINJAMAN: memproses
     KATEGORI ||--|{ BUKU: mengelompokkan
     RAK ||--|{ KATEGORI: menyimpan
+    PEMINJAMAN ||--|{ BUKU: pinjam
     
     BUKU {
         int id_buku
