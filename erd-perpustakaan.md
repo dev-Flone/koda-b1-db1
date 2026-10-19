@@ -3,11 +3,11 @@
 erDiagram
     direction TB
 
-    PEMINJAM ||--|{ PEMINJAMAN: melakukan
+    PEMINJAMAN ||--|{ BUKU: pinjam
     PETUGAS ||--|{ PEMINJAMAN: memproses
     KATEGORI ||--|{ BUKU: mengelompokkan
     RAK ||--|{ KATEGORI: menyimpan
-    PEMINJAMAN ||--|{ BUKU: pinjam
+    PEMINJAM ||--|{ PEMINJAMAN: melakukan
     
     BUKU {
         int id_buku PK
